@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <!-- Definição da codificação de caracteres -->
+    <meta charset="utf-8">
+    <!-- Título da página -->
+    <title>TRILHA CFC - O caminho certo</title>
+
+    <!-- Definição da URL base para links relativos -->
+    <base href="/">
+    <!-- Link para o documento styles.css -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/sobre.css">
+    <!-- Link para o Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Metadados para SEO -->
+    <meta name="description" content="Autoescola Trilha CFC - Aprenda a dirigir com confiança">
+    <meta name="author" content="Trilha CFC">
+    
+    <!-- Configurações de visualização em dispositivos móveis -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+
+    <!-- Cor da barra de navegação nos navegadores móveis -->
+    <meta name="theme-color" content="#86c33a">
+
+    <!-- Metadados para integração com redes sociais (Open Graph) -->
+    <meta property="og:title" content="TRILHA CFC - O caminho certo" />
+    <meta property="og:description" content="Autoescola Trilha CFC - Aprenda a dirigir com confiança" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.trilhacfc.com.br/" />
+
+    <!-- Metadados específicos para Twitter Cards -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="TRILHA CFC - O caminho certo"/>
+    <meta name="twitter:description" content="Autoescola Trilha CFC - Aprenda a dirigir com confiança"/>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favtrilha12.png">
+
+    <!-- Pré-conexão para melhorar o tempo de carregamento -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://use.fontawesome.com" crossorigin="anonymous">
+    <link rel="preconnect" href="//ajax.googleapis.com" crossorigin="anonymous">
+    <link rel="preconnect" href="//cdnjs.cloudflare.com" crossorigin="anonymous">
+
+    <!-- Pré-busca de DNS -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://use.fontawesome.com">
+    <link rel="dns-prefetch" href="//ajax.googleapis.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+
+    <!-- Importação das fontes -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+<!-- Container principal para manter o footer na parte inferior -->
+<div class="container">
+    <!-- Header -->
+    <header>
+        <!-- Logo -->
+        <a class="navbar-brand" href="/"><img loading="lazy" class="img-fluid" src="images/logo12.png" alt="Trilha CFC" style="width:70px"></a>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+<section class="hero-section">
+    <div class="hero-slider">
+        <div class="slide slide1">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="content">
+                    <h4>A Primeira Etapa para a Liberdade</h4>
+                    <h1>Bem-vindo à Trilha CFC</h1>
+                    <p>Comece sua jornada com a Trilha e conquiste sua CNH.</p>
+                    <a href="#" class="btn btn-primary-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide2">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="content">
+                    <h4>Aprenda com os Melhores</h4>
+                    <h1>Aulas Teóricas e Práticas</h1>
+                    <p>Oferecemos aulas teóricas e práticas com instrutores qualificados para garantir seu sucesso.</p>
+                    <a href="#" class="btn btn-primary-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <div class="slide slide3">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="content">
+                    <h4>Conquiste a Sua Habilitação</h4>
+                    <h1>Alta Taxa de Aprovação</h1>
+                    <p>Nossa metodologia garante sua aprovação no exame de direção.</p>
+                    <a href="#" class="btn btn-primary-outline">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+        <!-- Navigation buttons -->
+        <div class="nav-buttons">
+            <div class="prev-btn">❮</div>
+            <div class="next-btn">❯</div>
+        </div>
+    </div>
+</section>
+
+    <!-- Banner Feature -->
+<section class="banner-feature-wrapper py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      
+      <!-- Feature Item 1 -->
+      <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+        <div class="bg-white text-center box-shadow banner-feature px-4 py-5">
+          <div class="icon-bg mb-4">
+            <i class="fas fa-chalkboard-teacher icon"></i>
+          </div>
+          <h4 class="mb-4">Instrutores Qualificados</h4>
+          <p>Nossos instrutores são certificados e possuem vasta experiência para garantir seu sucesso na obtenção da CNH.</p>
+        </div>
+      </div>
+      
+      <!-- Feature Item 2 -->
+      <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+        <div class="bg-white text-center box-shadow banner-feature px-4 py-5">
+          <div class="icon-bg mb-4">
+            <i class="fas fa-car-side icon"></i>
+          </div>
+          <h4 class="mb-4">Frota Moderna</h4>
+          <p>Contamos com uma frota de veículos novos e bem mantidos para proporcionar um aprendizado seguro e confortável.</p>
+        </div>
+      </div>
+      
+      <!-- Feature Item 3 -->
+      <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+        <div class="bg-white text-center box-shadow banner-feature px-4 py-5">
+          <div class="icon-bg mb-4">
+            <i class="fas fa-book icon"></i>
+          </div>
+          <h4 class="mb-4">Aulas Teóricas</h4>
+          <p>Oferecemos aulas teóricas interativas com material atualizado para facilitar o entendimento das regras de trânsito.</p>
+        </div>
+      </div>
+      
+      <!-- Feature Item 4 -->
+      <div class="col-lg-6 col-md-6 col-sm-12 mb-4">
+        <div class="bg-white text-center box-shadow banner-feature px-4 py-5">
+          <div class="icon-bg mb-4">
+            <i class="fas fa-id-card icon"></i>
+          </div>
+          <h4 class="mb-4">Alta Taxa de Aprovação</h4>
+          <p>Nossa metodologia eficaz garante uma alta taxa de aprovação nos exames de direção.</p>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<!-- /Banner Feature -->
+
+<!-- about us -->
+<section id="about" class="section-about section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 bg-contain">
+        <!-- about us image -->
+        <img loading="lazy" class="img-fluid w-100" src="images/sobre6.png" alt="About Image">
+      </div>
+      <div class="col-md-6">
+        <div class="section-title-border">
+          <div class="line-short"></div>
+          <div class="line-dot"></div>
+        </div>
+        <p class="section-title-sm h6">Sobre Nós</p>
+        <h2 class="section-title">Somos uma equipe dinâmica e comprometida com a sua formação</h2>
+        <p class="mb-5">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+        
+        <a href="#" class="btn btn-primary-outline">Saiba Mais</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /about us -->
+    
+    <!-- Outras seções -->
+</main>
+</div>
+
+<footer>
+    <p>&copy; 2024 Trilha CFC. Todos os direitos reservados.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script/script.js"></script>
+<script src="script/menu.js"></script>
+<script src="script/slide.js"></script>
+<script>
+    // Inicializar o Swiper
+    var swiper = new Swiper('.hero-slider', {
+        loop: true,
+        navigation: {
+            nextEl: '.next-btn',
+            prevEl: '.prev-btn',
+        },
+    });
+</script>
+</body>
+</html>
